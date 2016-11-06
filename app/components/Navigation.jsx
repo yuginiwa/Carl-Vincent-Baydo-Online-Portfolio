@@ -5,17 +5,17 @@ var Navigation = React.createClass({
   render: function () {
     return (
       <div className="row">
-        <div className="column medium-3">
-          <IndexLink to="/">Carl Vincent Baydo</IndexLink>
+        <div className="column small-center medium-3">
+          <IndexLink to="/" activeClassName="active-link">Carl Vincent Baydo</IndexLink>
         </div>
-        <div className="column medium-3">
-          <Link to="/contact">Contact Me</Link>
+        <div className="column small-center medium-3">
+          <Link to="/contact" activeClassName="active-link">Contact Me</Link>
         </div>
-        <div className="column medium-3">
-          <Link to="/">Blog</Link>
+        <div className="column small-center medium-3">
+          <a href="#" activeClassName="active-link">Blog</a>
         </div>
-        <div className="column medium-3">
-          <Link to="/social">Social Accounts</Link>
+        <div className="column small-center medium-3">
+          <Link to="/social" activeClassName="active-link">Social Accounts</Link>
         </div>
       </div>
     );
