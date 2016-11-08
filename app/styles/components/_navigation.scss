@@ -3,9 +3,22 @@
     text-align: center;
     font-size: 150%;
     transition: color 0.3s;
+    padding: 15px 0;
 
-    a.active-link {
+    .active-link {
       color: black;
     }
   }
+}
+
+.main-navs {
+  background-color: $blue;
+  height: 70px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.link {
+  color: $cloud;
+  transition: color 0.3s;
 }
